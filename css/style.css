@@ -1,0 +1,271 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Heebo-Regular;
+    color: #21243D;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.nav {
+    background: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+    justify-content: end;
+    padding: 30px 135px;
+}
+
+.active{
+    color: #FF6464;
+}
+
+.nav__link {
+    font-family: Heebo-Medium;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav__link:hover {
+    color: #FF6464;
+}
+
+.header {
+    padding: 140px 0 70px 0;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 110px;
+}
+
+.header__content-box {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.header__content-title {
+    font-family: Heebo-Bold;
+    font-size: 44px;
+    line-height: 60px;
+
+}
+
+.header__content-text {
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.header__link {
+    max-width: max-content;
+    font-family: Heebo-Medium;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+    background: #FF6464;
+    padding: 13px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.header__link:hover {
+    background: #e24646;
+}
+
+/* ---- */
+
+
+.posts {
+    background: #EDF7FA;
+    padding-bottom: 32px;
+}
+
+.posts__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts__box-title {
+    font-size: 22px;
+    line-height: 60px;
+
+}
+
+.posts__box-text {
+    line-height: 24px;
+    color: #00A8CC;
+}
+
+.posts__fold {
+    display: flex;
+    column-gap: 20px;
+}
+
+.posts__folder {
+    width: 418px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.posts__folder-title {
+    font-family: Heebo-Bold;
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 17px;
+}
+
+.posts__folder-text {
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    padding-bottom: 12px;
+}
+
+.posts__folder-suptext {
+    line-height: 24px;
+}
+
+
+span{
+    color: #8695A4;
+}
+
+.works__suptitle {
+    font-size: 22px;
+    line-height: 60px;
+    padding-top: 15px;
+}
+
+.works__content {
+    display: flex;
+    column-gap: 18px;
+    padding: 30px 0 15px 0;
+}
+
+.works__content-img {
+    border-radius: 6px;
+}
+
+.works__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.works__box-title {
+    font-family: Heebo-Bold;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.works__link {
+    font-family: Heebo-Black;
+    background: #142850;
+    color: white;
+    max-width: max-content;
+    border-radius: 16px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works__box-year {
+    display: flex;
+    column-gap: 26px;
+}
+
+.works__box-ltext {
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.works__box-text {
+    line-height: 24px;
+}
+
+
+.footer {
+    margin-top: 83px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 26px;
+}
+
+.footer__box-link {
+    padding: 0 21px;
+}
+
+
+.abc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    background: #c9d3d6;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    margin-top: 100px;
+}
+
+
+
+.active{
+    color: #FF6464;
+}
+
+
+.header__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+   
+}
+.ab__title{
+    font-family: Heebo-Bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    padding-bottom: 15px;
+}
+
+.ab__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #21243D;
+}
